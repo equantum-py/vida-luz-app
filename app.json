@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Vida & Luz",
+    "slug": "vida-luz-app",
+    "version": "1.0.0",
+    "scheme": "vidaluz",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vidaluz.socios"
+    },
+    "android": {
+      "package": "com.vidaluz.socios",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A2342"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
